@@ -3,7 +3,13 @@ const app = express();
 
 // respond with "hello world" when a GET request is made to the homepage
 app.get("/", (req, res) => {
-  res.send("hello world");
+  console.log("data sent from client", req.query);
+  console.log("data sent from client", req.query.name);
+  res.send(
+    "Welcome " +
+      req.query.name.charAt(0).toUpperCase() +
+      req.query.name.slice(1)
+  );
 });
 
 // respond with "This is about page" when a GET request is made to the aboutpage
