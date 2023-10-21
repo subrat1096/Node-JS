@@ -1,0 +1,25 @@
+{
+  "name": "introduction-to-nodejs",
+  "version": "1.0.0",
+  "description": "ALl about Node JS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "vanillajs",
+    "codexp",
+    "learn js",
+    "javascript"
+  ],
+  "author": "Subrat Kumar Behera",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "color": "^4.2.3",
+    "colors": "^1.4.0"
+  }
+}
