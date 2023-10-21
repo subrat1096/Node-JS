@@ -15,9 +15,12 @@ for (let i = 0; i < 5; i++) {
 }
 
 fs.readdir(dirPath, (err, files) => {
-//   console.log(files);
+  //   console.log(files);
   files.forEach((element) => {
-    console.log('file name: ', element);
-    
+    console.log("file name: ", element);
   });
 });
+
+let x = 5;
+x = x + "3";
+console.log(x);
