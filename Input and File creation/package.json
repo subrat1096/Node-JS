@@ -1,0 +1,11 @@
+{
+  "name": "input-and-file-creation",
+  "version": "1.0.0",
+  "description": "Input from command line and file creation in node js environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Subrat Kumar Behera",
+  "license": "ISC"
+}

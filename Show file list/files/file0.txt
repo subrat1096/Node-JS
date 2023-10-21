@@ -1,0 +1,1 @@
+a simple text file from file0.txt
