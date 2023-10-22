@@ -1,0 +1,15 @@
+{
+  "name": "template-engine",
+  "version": "1.0.0",
+  "description": "Template Engine, ejs template package, setup dynamic routing, make dynamic page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Subrat Kumar Behera",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "remove-extension-from-url",
+  "version": "1.0.0",
+  "description": "Removing extension from URL make 404 page apply 404 page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Subrat Kumar Behera",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

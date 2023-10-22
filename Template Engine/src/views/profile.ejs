@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Page</title>
+  </head>
+  <body>
+    <h1>Profile</h1>
+    <div class="profile-container">
+      <h2>Welcome, <%= user.name %></h2>
+      <p>
+        <strong><%= user.email %></strong> -
+        <strong><%= user.phoneNumber %></strong>
+      </p>
+      <h3>My Skills</h3>
+      <ul>
+        <% for (let i = 0; i < user.skills.length; i++) { %>
+        <li><span><%= user.skills[i] %></span></li>
+        <% } %>
+      </ul>
+    </div>
+  </body>
+</html>
