@@ -1,0 +1,19 @@
+{
+  "name": "04_node-package-manager",
+  "version": "1.0.0",
+  "description": "- it's a tool we use to install and manage software packages written in javascript.\r - you can think of it like the command line version of pip (python) or gem (ruby).\r - npm packages are node modules that are created by third parties.\r - they contain code, documentation, tests, and metadata files.\r - when you run `npm init`, you create a new package with a name, description, version, main file, etc.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Subrat Kumar Behera",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
