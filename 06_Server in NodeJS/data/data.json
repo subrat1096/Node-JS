@@ -1,0 +1,39 @@
+{
+    "id": 2980,
+    "uid": "1ca5b921-89aa-4f6c-a80f-1e0ec6bd1601",
+    "password": "j8az50X69q",
+    "first_name": "Jorge",
+    "last_name": "Franecki",
+    "username": "jorge.franecki",
+    "email": "jorge.franecki@email.com",
+    "avatar": "https://robohash.org/consecteturvoluptatumlabore.png?size=300x300&set=set1",
+    "gender": "male",
+    "phone_number": "+94 1-816-879-8428",
+    "social_insurance_number": "395325137",
+    "date_of_birth": "2002-01-25",
+    "employment": {
+      "title": "Dynamic Coordinator",
+      "key_skill": "Proactive"
+    },
+    "address": {
+      "city": "South Jamarborough",
+      "street_name": "Conroy Glens",
+      "street_address": "3786 Belkis Mountains",
+      "zip_code": "24468",
+      "state": "Illinois",
+      "country": "United States",
+      "coordinates": {
+        "lat": -24.277681232337713,
+        "lng": -40.97008537051167
+      }
+    },
+    "credit_card": {
+      "cc_number": "5535-4851-3649-1277"
+    },
+    "subscription": {
+      "plan": "Premium",
+      "status": "Blocked",
+      "payment_method": "Visa checkout",
+      "term": "Full subscription"
+    }
+  }
